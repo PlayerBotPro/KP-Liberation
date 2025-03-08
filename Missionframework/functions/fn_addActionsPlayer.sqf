@@ -331,7 +331,8 @@ _player addAction [
         && {_originalTarget getVariable ['KPLIB_hasDirectAccess', false]}
         && {alive _originalTarget}
         && {build_confirmed isEqualTo 0}
-    "
+        && {serverCommandAvailable '#kick'}
+    " // only admin can open permissions
 ];
 
 // Reassign Zeus
