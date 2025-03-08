@@ -266,12 +266,13 @@ KP_liberation_commander_actions = [
     "5468711",
     "2156347"
     */
+    "76561198133923172"//PlayerBot
 ];
 
 /* Whitelist for BI support framework access.
 Same format as for the commander actions. */
 KP_liberation_suppMod_whitelist = [
-
+    "76561198133923172"//PlayerBot
 ];
 
 /* Array of radio tower classnames to place at radio tower sectors.
