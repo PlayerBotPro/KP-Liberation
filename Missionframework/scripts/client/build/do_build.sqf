@@ -309,8 +309,6 @@ while { true } do {
                     _vehicle setpos _truepos;
                 };
 
-                [_vehicle] call KPLIB_fnc_addObjectInit;
-
                 [_vehicle] call KPLIB_fnc_clearCargo;
 
                 if (buildtype == 6 || buildtype == 99 || (toLower _classname) in KPLIB_storageBuildings || _classname isEqualTo KP_liberation_recycle_building || _classname isEqualTo KP_liberation_air_vehicle_building) then {
@@ -326,6 +324,8 @@ while { true } do {
                 if ( (unitIsUAV _vehicle) || manned ) then {
                     [ _vehicle ] call KPLIB_fnc_forceBluforCrew;
                 };
+                
+                [_vehicle] call KPLIB_fnc_addObjectInit;
 
                 sleep 0.3;
                 _vehicle allowDamage true;
