@@ -1033,7 +1033,11 @@ KP_liberation_suppMod_artyVeh = [
     "uns_M2_60mm_mortar_pvp",
     "uns_M2_60mm_mortar",
     "uns_M30_107mm_mortar",
-    "uns_Type55_mortar"
+    "uns_Type55_mortar",
+    "UK3CB_BAF_Static_M6_Deployed_Arctic",
+    "UK3CB_BAF_Static_L16_Deployed_Arctic",
+    "BWA3_Panzerhaubitze2000_Tropen",
+    "BWA3_MRS120_Tropen"
 ];
 
 // Objects which are spawned as intel objects for pickup
